@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Poppins:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:"Cairo",serif;
+}
+
+
+h1{
+    color: rgb(200, 0, 255);
+}
+
+
+body{
+    background-color: rgba(0, 169, 175, 0.797);
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+}
+.button ul{
+    display: flex;
+    list-style-type: none;
+    gap : 2rem;
+}
+
+.button a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.button a:hover{
+    color: rgb(46, 11, 79);
+}
+hr{
+    opacity: 40%;
+    
+}
+.hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+.name{
+    font-size: 3rem;
+}
+.title{
+    font-size: 3.5rem;
+    color: rgba(255, 0, 0, 0.887);
+}
+.abute_here{
+    transform: translateY(-1px);
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    
+}
+.عنها{
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap:10rem ;
+}
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.par{
+    text-align: justify;
+    color: white;
+}
+.sos{
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap:10rem ;
+}
+.textcontainer2{
+    display: flex;
+    flex-direction: column;
+}
+.text2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.par2{
+    text-align: justify;
+    color: white;
+}
+ @media(max-width:1023px){
+    .sos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5rem auto;
+        max-width: 1200px;
+        gap: 0.00000000000001rem;  ;
+    }
+    .عنها{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5rem auto;
+        max-width: 1200px;
+        gap: 0.00000000000001rem; 
+    }
+    header {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+    .my_houny {
+        width: 400px;
+      }
+    .name,
+    .title {
+        font-size: 2rem;
+      }
+    .abute_here {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+      }
+    .textcontainer {
+        align-items: center;
+        margin: 0rem 5rem;
+        gap: 1rem;
+      }
+      .textcontainer2 {
+        align-items: center;
+        margin: 0rem 5rem;
+        gap: 1rem;
+      }
+
+
+ }
